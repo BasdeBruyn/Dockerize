@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  alexa_bot:
+    build: ./
+    image: alexa_bot
+    command: "" #bot key
